@@ -25,18 +25,18 @@ export default {
 				},
 				{
 					id: 2,
-					value: 'mobile',
-					name: 'Mobile Application',
+					value: 'e_commerce',
+					name: 'E-Commerce',
 				},
 				{
 					id: 3,
-					value: 'ui-ux',
-					name: 'UI/UX Design',
+					value: 'e_learning',
+					name: 'Educational',
 				},
 				{
 					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
+					value: 'cms',
+					name: 'Custom CMS',
 				},
 			],
 		};

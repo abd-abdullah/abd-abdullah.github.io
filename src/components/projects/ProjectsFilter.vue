@@ -10,9 +10,9 @@ export default {
 			type: Array,
 			default: () => [
 				'Web Application',
-				'Mobile Application',
-				'UI/UX Design',
-				'Branding & Anim',
+				'E-Commerce',
+				'Educational',
+				'Custom CMS',
 			],
 		},
 	},

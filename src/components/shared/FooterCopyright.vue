@@ -4,7 +4,7 @@ export default {
 		return {
 			copyrightDate: new Date().getFullYear(),
 			projectName: 'Vue.js & TailwindCSS Portfolio',
-			author: 'Stoman',
+			author: 'Md. Abdullah',
 		};
 	},
 };
@@ -17,7 +17,7 @@ export default {
 		>
 			&copy; {{ copyrightDate }}.
 			<a
-				href="https://github.com/realstoman/vuejs-tailwindcss-portfolio"
+				href="https://github.com/abd-abdullah/vuejs-tailwindcss-portfolio"
 				target="__blank"
 				class="font-general-medium hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
 			>
@@ -25,7 +25,7 @@ export default {
 			</a>
 			. Developed by
 			<a
-				href="https://stoman.me"
+				href="https://engabdullah.me"
 				target="__blank"
 				class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
 				>{{ author }}</a
