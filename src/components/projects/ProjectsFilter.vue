@@ -9,10 +9,11 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web Application',
-				'E-Commerce',
+				'Membership Application',
+				'E-commerce Solutions',
 				'Educational',
-				'Custom CMS',
+				'Web Application',
+				'CodeCanyon Application',
 			],
 		},
 	},

@@ -32,11 +32,17 @@ export default {
 			<p class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400">
 				A Full-Stack Engineer
 			</p>
-			<div class="flex justify-center sm:block">
-				<router-link to="/resume" class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500" aria-label="Resume">
+			<div class="flex gap-4">
+				<router-link to="/resume" class="flex justify-center items-center w-36 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg hover:bg-indigo-700 focus:ring-1 focus:ring-indigo-900 bg-indigo-500 text-white duration-500" aria-label="Resume">
 
-				<i data-feather="arrow-right-circle" class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"></i>
-				<span class="text-sm sm:text-lg font-general-medium duration-100">Resume</span>
+					<i data-feather="arrow-right-circle" class="hidden lg:block ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"></i>
+					<span class="text-sm sm:text-lg font-general-medium duration-100">Resume</span>
+				</router-link>
+				
+				<router-link to="/about" class="flex justify-center items-center w-36 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500" aria-label="Resume">
+
+					<span class="text-sm sm:text-lg font-general-medium duration-100">About Me</span>
+					<i data-feather="external-link" class="hidden lg:block mr-0 sm:mr-1 ml-2 sm:ml-3 w-5 sm:w-6 duration-100"></i>
 				</router-link>
 			</div>
 		</div>
