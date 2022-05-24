@@ -22,7 +22,7 @@ export default {
 			} else if (this.searchProject) {
 				return this.filterProjectsBySearch();
 			}
-			return this.projects.slice(0,6);
+			return this.projects.filter(x => x.featured == 1);
 		},
 	},
 	methods: {
@@ -39,7 +39,7 @@ export default {
 		// Filter projects by title search
 		filterProjectsBySearch() {
 			let project = new RegExp(this.searchProject, 'i');
-			return this.projects.filter((el) => el.title.match(project)).slice(0,6);
+			return this.projects.filter((el) => el.title.match(project)).filter(x => x.featured == 1);
 		},
 	},
 	mounted() {

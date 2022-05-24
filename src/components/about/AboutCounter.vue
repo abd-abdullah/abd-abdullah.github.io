@@ -1,5 +1,6 @@
 <script>
 import counter from 'vue3-autocounter';
+import projects from '../../data/projects';
 export default {
 	components: {
 		counter,
@@ -9,6 +10,7 @@ export default {
 			experienceTitle: 'Years of experience',
 			clientTitle: 'Worked with client',
 			projectsTitle: 'Projects completed',
+			projectTotal: projects.length,
 		};
 	},
 };
@@ -62,7 +64,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="20"
+					:endAmount=projectTotal
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"

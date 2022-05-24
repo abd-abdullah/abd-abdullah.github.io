@@ -29,7 +29,8 @@ export default {
 
 		<!-- Render active component contents with vue transition -->
 		<transition name="fade" mode="out-in">
-			<router-view :theme="appTheme" />
+			<router-view v-if="$route.name == 'Single Project'" :key="$route.fullPath"  :theme="appTheme" />
+			<router-view v-else :theme="appTheme" />
 		</transition>
 
 		<!-- Scroll to top -->
