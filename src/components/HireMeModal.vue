@@ -1,6 +1,9 @@
 <script>
 import feather from 'feather-icons';
 import Button from './reusable/Button.vue';
+import emailjs from "emailjs-com";
+import { useToast } from "vue-toastification";
+
 export default {
 	props: ['showModal', 'modal', 'categories'],
 	components: { Button },
@@ -13,7 +16,41 @@ export default {
 	updated() {
 		feather.replace();
 	},
-	methods: {},
+	methods: {
+		sendEmail() {
+			//to sender
+			const toast = useToast();
+			let loader = this.$loading.show({
+				// Optional parameters
+				loader: "dots",
+				color: "#6366f1"
+			});
+
+			emailjs
+				.sendForm(
+					"service_d0rbjon",
+					"template_0gfnuqq",
+					this.$refs.hireForm,
+					"d7ILlehyR7RPlXcUs"
+				)
+				.then(
+					() => {
+						loader.hide();
+						this.$refs.hireForm.reset();
+						toast.success("Your query has been submitted successfully", {
+							timeout: 2000,
+						});
+					},
+					() => {
+						loader.hide();
+						this.$refs.hireForm.reset();
+						toast.error("Something went wrong!", {
+							timeout: 2000,
+						});
+					}
+				);
+		},
+	},
 };
 </script>
 
@@ -54,12 +91,12 @@ export default {
 								</button>
 							</div>
 							<div class="modal-body p-5 w-full h-full">
-								<form class="max-w-xl m-4 text-left">
+								<form ref="hireForm" @submit.prevent="sendEmail" class="max-w-xl m-4 text-left">
 									<div class="mt-0">
 										<input
 											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-											id="name"
-											name="name"
+											id="from_name"
+											name="from_name"
 											type="text"
 											required=""
 											placeholder="Name"
@@ -69,9 +106,9 @@ export default {
 									<div class="mt-6">
 										<input
 											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-											id="email"
-											name="email"
-											type="text"
+											id="from_email"
+											name="from_email"
+											type="email"
 											required=""
 											placeholder="Email"
 											aria-label="Email"

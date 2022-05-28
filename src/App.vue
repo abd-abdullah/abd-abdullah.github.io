@@ -1,16 +1,44 @@
 <script>
-import feather from 'feather-icons';
-import AppHeader from './components/shared/AppHeader';
-import AppFooter from './components/shared/AppFooter';
+import feather from "feather-icons";
+import AppHeader from "./components/shared/AppHeader";
+import AppFooter from "./components/shared/AppFooter";
 
 export default {
 	components: {
 		AppHeader,
 		AppFooter,
 	},
+	metaInfo() {
+		return {
+			title: "Home",
+			description: 'This is my personal portfolio site',
+			
+			meta: [
+				{ name: 'author', content: 'Md. Abdullah' },
+				{ name: 'title', content: 'Portfolio of Abdullah' },
+			],
+
+			twitter: {
+				title: "Abdullah-Portfolio",
+				description: "This is my personal portfolio site",
+				card: "Summary",
+				image: window.location.origin+''+require('@/assets/images/profile.jpg'),
+			},
+			
+			og: {
+				title: "Abdullah-Portfolio",
+				description: "This is my personal portfolio site",
+				type: "website",
+				url: window.location.href,
+				image: window.location.origin+''+require('@/assets/images/profile.jpg'),
+				site_name: "Abdullah Portfolio",
+			}
+		};
+	},
+
 	data: () => {
 		return {
-			appTheme: localStorage.getItem('theme'),
+			appTheme: localStorage.getItem("theme"),
 		};
 	},
 	mounted() {
@@ -24,22 +52,21 @@ export default {
 
 <template>
 	<div :class="appTheme" class="pt-0.5">
+		<metainfo>
+			<template v-slot:title="{ content }">Abdullah-{{ content }}</template>
+			<template v-slot:meta></template>
+		</metainfo>
 		<!-- App header -->
 		<AppHeader />
 
 		<!-- Render active component contents with vue transition -->
+		
 		<transition name="fade" mode="out-in">
-			<router-view v-if="$route.name == 'Single Project'" :key="$route.fullPath"  :theme="appTheme" />
-			<router-view v-else :theme="appTheme" />
+			<router-view :theme="appTheme" />
 		</transition>
 
 		<!-- Scroll to top -->
-		<back-to-top
-			visibleoffset="500"
-			right="30px"
-			bottom="20px"
-			class="shadow-lg"
-		>
+		<back-to-top visibleoffset="500" right="30px" bottom="20px" class="shadow-lg">
 			<i data-feather="chevron-up"></i>
 		</back-to-top>
 

@@ -6,23 +6,23 @@ const projects = [
 		id: 1,
 		title: 'B2B Web & Membership Application',
 		category: 'Membership Application',
-		date: "May 21, 2022",
+		date: "January 01, 2021",
 		featured: 1,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/bcs_1.jpg'),
-				title: "Homepage",
+				title: "B2B Web & Membership Application Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/bcs_2.jpg'),
-				title: "Homepage",
+				title: "B2B Web & Membership Application 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/bcs_3.jpg'),
-				title: "Homepage",
+				title: "B2B Web & Membership Application 3",
 			}
 		],
 		projectInfo: {
@@ -31,47 +31,62 @@ const projects = [
 				{
 					id: 1,
 					title: 'Name',
-					details: 'Company Ltd',
+					details: 'BCS-Bangladesh Computer Samity',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+					details: 'https://bcs.org.bd',
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 5',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• This application has dynamic CMS website',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• B2B web portal for member to member communication',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• Dynamic form builder with payment integration',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• SSLCOMMERZ payment gateway and bulk SMS gateway integrated',
+				},
+				{
+					id: 5,
+					details: '• Dynamic Blog system',
+				},
+				{
+					id: 6,
+					details: '• Membership management system',
+				},
+				{
+					id: 7,
+					details: '• Dynamic multi-level approval system',
+				},
+				{
+					id: 8,
+					details: '• E-Certificate generate and verify with QR code',
+				},
+				{
+					id: 9,
+					details: '• E-Nothi Management',
 				},
 			]
 		}
@@ -80,23 +95,23 @@ const projects = [
 		id: 2,
 		title: 'Multi Vendor E-commerce',
 		category: 'E-commerce Solutions',
-		date: "May 21, 2022",
+		date: "March 15, 2020",
 		featured: 1,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/cv_1.jpg'),
-				title: "Homepage",
+				title: "Computer village home page",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/cv_2.jpg'),
-				title: "Homepage",
+				title: "computer village 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/cv_3.jpg'),
-				title: "Homepage",
+				title: "computer village 3",
 			}
 		],
 		projectInfo: {
@@ -105,47 +120,58 @@ const projects = [
 				{
 					id: 1,
 					title: 'Name',
-					details: 'Company Ltd',
+					details: 'Computer Village',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+					details: 'https://computervillage.com.bd/',
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 7',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• Multi-vendor e-commerce with custom CMS',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• Cart Management',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• Vendor Management',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• Payment gateway & SMS gateway integration',
+				},
+				{
+					id: 5,
+					details: '• Integrated Facebook and Google API for social login',
+				},
+				{
+					id: 6,
+					details: '• API for mobile application',
+				},
+				{
+					id: 7,
+					details: '• Quiz system',
+				},
+				{
+					id: 8,
+					details: '• Blog & News Management',
 				},
 			]
 		}
@@ -185,41 +211,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -259,41 +292,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -333,41 +373,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -407,41 +454,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -481,41 +535,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -555,41 +616,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -629,41 +697,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -703,41 +778,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -777,41 +859,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -851,41 +940,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -925,41 +1021,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -999,41 +1102,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -1073,41 +1183,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -1147,41 +1264,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -1221,41 +1345,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -1295,41 +1426,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -1369,41 +1507,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}
@@ -1443,41 +1588,48 @@ const projects = [
 					id: 3,
 					title: 'Demo Link',
 					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Bootstrap 4',
+					'Laravel 8',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Ajax',
+					'Mysql',
+					'Figma',
 				],
 			},
-			projectDetailsHeading: 'Details',
+			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
 				},
 				{
 					id: 2,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 3,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					details: '• ',
 				},
 				{
 					id: 4,
-					details: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					details: '• ',
+				},
+				{
+					id: 5,
+					details: '• ',
+				},
+				{
+					id: 6,
+					details: '• ',
+				},
+				{
+					id: 7,
+					details: '• ',
 				},
 			]
 		}

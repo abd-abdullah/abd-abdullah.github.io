@@ -3,13 +3,26 @@ import App from './App.vue';
 import router from './router';
 import './assets/css/app.css';
 import BackToTop from 'vue-backtotop';
+import Toast from "vue-toastification";
+import "vue-toastification/dist/index.css";
+import VueLoading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
+import { createMetaManager, defaultConfig, plugin as metaPlugin } from 'vue-meta'
 
 const feather = require('feather-icons');
 feather.replace();
+const metaManager = createMetaManager(false, {
+	...defaultConfig,
+	meta: { tag: 'meta', nameless: true },
+});
 
 createApp(App)
 	.use(router)
 	.use(BackToTop)
+	.use(Toast)
+	.use(VueLoading)
+	.use(metaManager)
+	.use(metaPlugin)
 	.mount('#app');
 
 const appTheme = localStorage.getItem('theme');

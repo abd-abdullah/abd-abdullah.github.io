@@ -3,13 +3,43 @@ import feather from "feather-icons";
 
 export default {
 	props: ["projectInfo"],
-
+	data: () => {
+		return {
+			socialSharing: [
+				{
+					id: 1,
+					name: "Twitter",
+					icon: "twitter",
+					url: "https://twitter.com/intent/tweet/?text="+window.location.href,
+				},
+				{
+					id: 2,
+					name: "Instagram",
+					icon: "instagram",
+					url: "https://www.instagram.com/?url="+window.location.href,
+				},
+				{
+					id: 3,
+					name: "Facebook",
+					icon: "facebook",
+					url: "https://www.facebook.com/sharer/sharer.php?u="+window.location.href,
+				},
+				{
+					id: 4,
+					name: "LinkedIn",
+					icon: "linkedin",
+					url: "https://www.linkedin.com/sharing/share-offsite/?url="+window.location.href,
+				}
+			]
+		}
+	},
+	
 	mounted() {
 		feather.replace();
 	},
 	updated() {
 		feather.replace();
-	},
+	}
 };
 </script>
 
@@ -18,7 +48,7 @@ export default {
 		<!-- Single project left section details -->
 		<div class="w-full sm:w-1/3 text-left">
 			<!-- Single project client details -->
-			<div class="mb-7">
+			<div class="mb-8">
 				<p class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2">
 					{{ projectInfo.clientHeading }}
 				</p>
@@ -33,13 +63,22 @@ export default {
 			</div>
 
 			<!-- Single project technologies -->
-			<div class="mb-7">
+			<div class="mb-8">
 				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 					{{ projectInfo.technologies.title }}
 				</p>
 				<p class="font-general-regular text-primary-dark dark:text-ternary-light">
 					{{ projectInfo.technologies.techs.join(', ') }}
 				</p>
+			</div>
+			<!-- Single project social sharing -->
+			<div>
+				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
+					Share this
+				</p>
+				<div class="flex items-center gap-3 mt-5">
+					<a v-for="social in socialSharing" :key="social.id" :href="social.url" target="__blank" aria-label="Share Project" class="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"><i :data-feather="social.icon" class="w-4 lg:w-5 h-4 lg:h-5"></i></a>
+				</div>
 			</div>
 		</div>
 
@@ -48,7 +87,7 @@ export default {
 			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
 				{{ projectInfo.projectDetailsHeading }}
 			</p>
-			<p v-for="projectDetail in projectInfo.projectDetails" :key="projectDetail.id" class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light">
+			<p v-for="projectDetail in projectInfo.projectDetails" :key="projectDetail.id" class="font-general-regular mb-2 text-lg text-ternary-dark dark:text-ternary-light">
 				{{ projectDetail.details }}
 			</p>
 		</div>

@@ -16,7 +16,9 @@ export default {
 	},
 	data: () => {
 		return {
-			project: {},
+			project: {
+				title: "",
+			},
 			singleProjectHeader: {
 				singleProjectTitle: "",
 				singleProjectDate: "",
@@ -37,7 +39,11 @@ export default {
 					techs: [],
 				},
 				projectDetailsHeading: "",
-				projectDetails: [],
+				projectDetails: [
+					{
+						details: "",
+					},
+				],
 			},
 
 			relatedProject: {
@@ -46,16 +52,47 @@ export default {
 			},
 		};
 	},
-	mounted() {
+
+	metaInfo() {
+		return {
+			title: this.project.title,
+			description: this.projectInfo.projectDetails[0].details,
+
+			meta: [
+				{ name: "author", content: "Md. Abdullah" },
+				{ name: "title", content: "Portfolio of Abdullah" },
+			],
+
+			twitter: {
+				title: this.project.title,
+				description: this.projectInfo.projectDetails[0].details,
+				card: "Summary",
+				image: window.location.origin + "" + this.projectImages[0].img,
+			},
+
+			og: {
+				title: this.project.title,
+				description: this.projectInfo.projectDetails[0].details,
+				url: window.location.href,
+				image: window.location.origin + "" + this.projectImages[0].img,
+				site_name: "Abdullah Portfolio",
+			},
+		};
+	},
+
+	created() {
 		feather.replace();
-		this.getData();
+		this.getData(this.$route.params.id);
+	},
+	beforeRouteUpdate(to) {
+		this.getData(parseInt(to.params.id));
 	},
 	updated() {
 		feather.replace();
 	},
 	methods: {
-		getData() {
-			this.project = projects.find((x) => x.id == this.$route.params.id);
+		getData(id) {
+			this.project = projects.find((x) => x.id == id);
 			this.singleProjectHeader = {
 				singleProjectTitle: this.project.title,
 				singleProjectDate: this.project.date,

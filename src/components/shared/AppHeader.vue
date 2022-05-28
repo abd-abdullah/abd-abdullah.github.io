@@ -30,13 +30,13 @@ export default {
 				},
 				{
 					id: 3,
-					value: "e_learning",
-					name: "Educational",
+					value: "cms",
+					name: "Custom CMS",
 				},
 				{
 					id: 4,
-					value: "cms",
-					name: "Custom CMS",
+					value: "other",
+					name: "Others",
 				},
 			],
 		};
