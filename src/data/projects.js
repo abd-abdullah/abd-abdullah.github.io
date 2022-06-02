@@ -30,12 +30,12 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
+					title: 'Company',
 					details: 'BCS-Bangladesh Computer Samity',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
+					title: 'Link',
 					details: 'https://bcs.org.bd',
 				}
 			],
@@ -88,6 +88,10 @@ const projects = [
 					id: 9,
 					details: '• E-Nothi Management',
 				},
+				{
+					id: 10,
+					details: '• User Management with Role permission system',
+				},
 			]
 		}
 	},
@@ -119,12 +123,12 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
+					title: 'Client',
 					details: 'Computer Village',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
+					title: 'Link',
 					details: 'https://computervillage.com.bd/',
 				}
 			],
@@ -136,7 +140,6 @@ const projects = [
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
@@ -173,30 +176,34 @@ const projects = [
 					id: 8,
 					details: '• Blog & News Management',
 				},
+				{
+					id: 9,
+					details: '• User Management with Role permission system',
+				},
 			]
 		}
 	},
 	{
 		id: 3,
-		title: 'Car and Bike Parking Solutions',
+		title: 'Car and SolutionsBike Parking',
 		category: 'CodeCanyon Application',
-		date: "May 21, 2022",
+		date: "Feb 17, 2022",
 		featured: 1,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/dp_1.jpg'),
-				title: "Homepage",
+				title: "Car and SolutionsBike Parking Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/dp_2.jpg'),
-				title: "Homepage",
+				title: "Car and SolutionsBike Parking 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/dp_3.jpg'),
-				title: "Homepage",
+				title: "Car and SolutionsBike Parking 3",
 			}
 		],
 		projectInfo: {
@@ -204,19 +211,19 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Marketplace',
+					details: 'CodeCanyon',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
+					details: 'https://codecanyon.net/item/dparking-car-and-bike-parking-solutions/35950371',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'Bootstrap 4',
+					'Bootstrap 5',
 					'Laravel 8',
 					'JavaScript',
 					'Ajax',
@@ -228,31 +235,31 @@ const projects = [
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• User Management with Role & Permission Management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Parking Category Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Floor Setup',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Tariff Management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Parking Management',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Reports',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Localization',
 				},
 			]
 		}
@@ -261,23 +268,23 @@ const projects = [
 		id: 4,
 		title: 'ICO / STO Token Sale Management',
 		category: 'CodeCanyon Application',
-		date: "May 21, 2022",
+		date: "April 12, 2019",
 		featured: 1,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/tl_1.jpg'),
-				title: "Homepage",
+				title: "Tokenlite Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/tl_2.jpg'),
-				title: "Homepage",
+				title: "Tokenlite 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/tl_3.jpg'),
-				title: "Homepage",
+				title: "Tokenlite 3",
 			}
 		],
 		projectInfo: {
@@ -285,55 +292,58 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Marketplace',
+					details: 'CodeCanyon',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
+					details: 'https://codecanyon.net/item/tokenlite-ico-sto-token-sale-management-dashboard-ico-admin-script/23604094',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 6',
 					'JavaScript',
 					'Ajax',
-					'Mysql',
-					'Figma',
+					'Mysql'
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• User Management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Two-Factor Authentication (2FA)',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• KYC/AML system for Identify users',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Payment Gateway – (Offline Crypto & Bank Payment)',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• PayPal,Stripe Online Payment Gateway.',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Referral Bonus Program Supported.',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Google reCaptcha v3',
+				},
+				{
+					id: 8,
+					details: '• Multi Language Support',
 				},
 			]
 		}
@@ -342,79 +352,92 @@ const projects = [
 		id: 5,
 		title: 'School Management Application',
 		category: 'Educational',
-		date: "May 21, 2022",
+		date: "January 21, 2020",
 		featured: 1,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/school_1.jpg'),
-				title: "Homepage",
+				title: "School Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/school_2.jpg'),
-				title: "Homepage",
+				title: "School 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/school_3.jpg'),
-				title: "Homepage",
+				title: "School 3",
 			}
 		],
 		projectInfo: {
-			clientHeading: 'About Client',
+			clientHeading: 'About Project',
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Demo Link',
+					details: 'https://systechprojects.com/demo-school',
+				},
+				{
+					id: 2,
+					title: 'Demo Credentials',
+					details: '',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Email',
+					details: 'admin@gmail.com',
+				},
+				{
+					id: 4,
+					title: 'Password',
+					details: '123456',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 6',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Dynamic web portal',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• User Management with Role & Permission Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Teacher portal',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Payment Collection and due calculation',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• SMS gateway integration',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Financial Reports',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Result Management',
+				},
+				{
+					id: 8,
+					details: '• Attendance System',
 				},
 			]
 		}
@@ -424,22 +447,22 @@ const projects = [
 		title: 'BGMEA B2B Web Portal',
 		category: 'Web Application',
 		featured: 1,
-		date: "May 21, 2022",
+		date: "January 01, 2021",
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/bgmea_1.jpg'),
-				title: "Homepage",
+				title: "BGMEA Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/bgmea_2.jpg'),
-				title: "Homepage",
+				title: "BGMEA 1",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/bgmea_3.jpg'),
-				title: "Homepage",
+				title: "NGMEA 2",
 			}
 		],
 		projectInfo: {
@@ -447,55 +470,55 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Company',
+					details: 'BGMEA',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Link',
+					details: 'https://www.bgmea.com.bd',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 7',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
+					'AdobeXD',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Dynamic custom CMS with Custom page design',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• User Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Membership Data Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Notice Management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Event Management',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Gallery Management',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• SMS Gateway',
 				},
 			]
 		}
@@ -504,23 +527,23 @@ const projects = [
 		id: 7,
 		title: 'DCCI Membership Application',
 		category: 'Membership Application',
-		date: "May 21, 2022",
+		date: "May 01, 2020",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/dcci_1.jpg'),
-				title: "Homepage",
+				title: "DCCI Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/dcci_2.jpg'),
-				title: "Homepage",
+				title: "DCCI 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/dcci_3.jpg'),
-				title: "Homepage",
+				title: "DCCI 3",
 			}
 		],
 		projectInfo: {
@@ -528,55 +551,81 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Dhaka Chamber of Commerce & Industries',
+				},
+				{
+					id: 2,
+					title: 'Demo Link',
+					details: 'https://systechprojects.com/dccimember',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Demo Credentials',
+					details: '',
+				},
+				{
+					id: 4,
+					title: 'User ID',
+					details: 'admin',
+				},
+				{
+					id: 5,
+					title: 'Password',
+					details: 'dcciadmin',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'Bootstrap 4',
-					'Laravel 8',
+					'Bootstrap 3.4',
+					'CodeIgniter 3',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Membership management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Circular management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• User management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• approval system',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• SMS gateway',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Report generation (excel and pdf)',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Financial reports',
+				},
+				{
+					id: 8,
+					details: '• Certificate and cards generation',
+				},
+				{
+					id: 9,
+					details: '• QR & Bar code scanner with verification',
+				},
+				{
+					id: 10,
+					details: '• Dynamic Role & permission system',
 				},
 			]
 		}
@@ -585,23 +634,23 @@ const projects = [
 		id: 8,
 		title: 'Warranty & Customer Support Management',
 		category: 'Web Application',
-		date: "May 21, 2022",
+		date: "April 21, 2021",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/wm_1.jpg'),
-				title: "Homepage",
+				title: "Warranty & Customer Support Management Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/wm_2.jpg'),
-				title: "Homepage",
+				title: "Warranty & Customer Support Management 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/wm_3.jpg'),
-				title: "Homepage",
+				title: "Warranty & Customer Support Management 3",
 			}
 		],
 		projectInfo: {
@@ -609,13 +658,28 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'City Water Purifier',
+				},
+				{
+					id: 2,
+					title: 'Demo Link',
+					details: 'https://support.publicsoftbd.com',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Demo Credentials',
+					details: '',
+				},
+				{
+					id: 4,
+					title: 'Email',
+					details: 'admin@admin.com',
+				},
+				{
+					id: 5,
+					title: 'Password',
+					details: 'secret',
 				}
 			],
 			technologies: {
@@ -623,41 +687,39 @@ const projects = [
 				techs: [
 					'Bootstrap 4',
 					'Laravel 8',
-					'JavaScript',
-					'Ajax',
-					'Mysql',
-					'Figma',
+					'Vue.js 2',
+					'Mysql'
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Customer Management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Sales Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Inventory Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Warranty Management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Customer Support Management',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• SMS notify ',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Support report',
 				},
 			]
 		}
@@ -672,17 +734,17 @@ const projects = [
 			{
 				id: 1,
 				img: require('@/assets/images/ficci_1.jpg'),
-				title: "Homepage",
+				title: "FICCI Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/ficci_2.jpg'),
-				title: "Homepage",
+				title: "FICCI 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/ficci_3.jpg'),
-				title: "Homepage",
+				title: "FICCI 3",
 			}
 		],
 		projectInfo: {
@@ -690,13 +752,13 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Foreign Investors\' Chamber Of Commerce & Industry',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Link',
+					details: 'https://ficci.org.bd',
 				}
 			],
 			technologies: {
@@ -714,31 +776,39 @@ const projects = [
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Powerful Custom CMS',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Event, Notice, Gallery Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• B2B portal',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Membership management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Country of Origin Management',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Approval System',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Certificate Generation',
+				},
+				{
+					id: 8,
+					details: '• SMS and Payment Gateway',
+				},
+				{
+					id: 9,
+					details: '• Financial Report',
 				},
 			]
 		}
@@ -747,23 +817,23 @@ const projects = [
 		id: 10,
 		title: 'DCCI Country of Origin Application',
 		category: 'Membership Application',
-		date: "May 21, 2022",
+		date: "October 30, 2021",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/co_1.jpg'),
-				title: "Homepage",
+				title: "DCCI CO Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/co_2.jpg'),
-				title: "Homepage",
+				title: "DCCI CO 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/co_3.jpg'),
-				title: "Homepage",
+				title: "DCCI CO 3",
 			}
 		],
 		projectInfo: {
@@ -771,13 +841,13 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Dhaka Chamber of Commerce & Industries',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
+					details: 'https://systechprojects.com/dcciportal',
 				}
 			],
 			technologies: {
@@ -788,63 +858,75 @@ const projects = [
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
+					'AdobeXD',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Two Factor Authentication',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• SMS OTP',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Integration with BIDA via API',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Certificate of origin management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Approval System',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• SMS & Payment Integration',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Certificate Generation',
+				},
+				{
+					id: 8,
+					details: '• Bar & QR code scan with easy verification',
+				},
+				{
+					id: 9,
+					details: '• Financial Reports',
+				},
+				{
+					id: 10,
+					details: '• User Management with Role & Permission system',
 				},
 			]
 		}
 	},
 	{
 		id: 11,
-		title: 'Maturity Management System',
+		title: 'Client Maturity Management System',
 		category: 'Web Application',
-		date: "May 21, 2022",
+		date: "April 30, 2021",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/maturity_1.jpg'),
-				title: "Homepage",
+				title: "CMSS Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/maturity_2.jpg'),
-				title: "Homepage",
+				title: "CMSS 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/maturity_3.jpg'),
-				title: "Homepage",
+				title: "CMSS 3",
 			}
 		],
 		projectInfo: {
@@ -852,55 +934,63 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'UNIADEX Ltd (Japan)',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
+					details: 'https://cmss-uniadex.com/',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 7',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
+					'AdobeXD',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Japan based MIS application for measuring maturity',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Maturity Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Category Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Survey Management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Target vs Achievement comparison',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Localization',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• User management',
+				},
+				{
+					id: 8,
+					details: '• Role Permission Management',
+				},
+				{
+					id: 9,
+					details: '• Notification',
 				},
 			]
 		}
@@ -909,23 +999,23 @@ const projects = [
 		id: 12,
 		title: 'Lead Tracking System',
 		category: 'Web Application',
-		date: "May 21, 2022",
+		date: "December 15, 2019",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/ls_1.jpg'),
-				title: "Homepage",
+				title: "LTS Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/ls_2.jpg'),
-				title: "Homepage",
+				title: "LTS 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/ls_3.jpg'),
-				title: "Homepage",
+				title: "LTS 3",
 			}
 		],
 		projectInfo: {
@@ -933,55 +1023,85 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Systech Digital Ltd',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
+					details: 'https://systechprojects.com/leads',
+				},
+				{
+					id: 3,
+					title: 'Demo Credentials',
+					details: '',
+				},
+				{
+					id: 4,
+					title: 'Email',
+					details: 'admin@gmail.com',
+				},
+				{
+					id: 5,
+					title: 'Password',
+					details: 'secret',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'Bootstrap 4',
-					'Laravel 8',
+					'Bootstrap 3',
+					'Laravel 5.4',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• User management with role permission',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Client Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Meeting Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Lead Management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Schedule Management',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Support Management',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Employee Activity Management',
+				},
+				{
+					id: 8,
+					details: '• Sales Management',
+				},
+				{
+					id: 9,
+					details: '• Tender Management',
+				},
+				{
+					id: 10,
+					details: '• Notification',
+				},
+				{
+					id: 11,
+					details: '• Reports',
 				},
 			]
 		}
@@ -990,23 +1110,23 @@ const projects = [
 		id: 13,
 		title: 'Systech Smart Solution',
 		category: 'E-commerce Solutions',
-		date: "May 21, 2022",
+		date: "May 21, 2021",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/ss_1.jpg'),
-				title: "Homepage",
+				title: "Smart Solutions Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/ss_2.jpg'),
-				title: "Homepage",
+				title: "Smart Solutions 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/ss_3.jpg'),
-				title: "Homepage",
+				title: "Smart Solutions 3",
 			}
 		],
 		projectInfo: {
@@ -1014,55 +1134,63 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Systech Smart Solutions',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Link',
+					details: 'https://systechsmartsolutions.com',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 7',
 					'JavaScript',
+					'Vue.js',
 					'Ajax',
 					'Mysql',
-					'Figma',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Multi-vendor e-commerce with custom CMS',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Cart Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Vendor Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Payment gateway & SMS gateway integration',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Integrated Facebook and Google API for social login',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• API for mobile application',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Quiz system',
+				},
+				{
+					id: 8,
+					details: '• Blog & News Management',
+				},
+				{
+					id: 9,
+					details: '• User Management with Role permission system',
 				},
 			]
 		}
@@ -1071,23 +1199,23 @@ const projects = [
 		id: 14,
 		title: 'RAIMS-Recruiting Management System',
 		category: 'Web Application',
-		date: "May 21, 2022",
+		date: "September 21, 2020",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/ilo_1.jpg'),
-				title: "Homepage",
+				title: "RAIMS Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/ilo_2.jpg'),
-				title: "Homepage",
+				title: "RAIMS 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/ilo_3.jpg'),
-				title: "Homepage",
+				title: "RAIMS 3",
 			}
 		],
 		projectInfo: {
@@ -1095,20 +1223,20 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Bureau of Manpower, Employment and Training (BMET)',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Link',
+					details: 'https://raims.bmet.gov.bd',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 7',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
@@ -1119,31 +1247,35 @@ const projects = [
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• User Management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Role Permission Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Agency Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Complain API Integration',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Agency API develop for Complain Management System',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Activity Log',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Approval Management',
+				},
+				{
+					id: 8,
+					details: '• SMS & Email Notification',
 				},
 			]
 		}
@@ -1158,17 +1290,17 @@ const projects = [
 			{
 				id: 1,
 				img: require('@/assets/images/bgmeam_1.jpg'),
-				title: "Homepage",
+				title: "BGMEA Mobile Application Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/bgmeam_2.jpg'),
-				title: "Homepage",
+				title: "BGMEA Mobile Application 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/bgmeam_3.jpg'),
-				title: "Homepage",
+				title: "BGMEA Mobile Application 3",
 			}
 		],
 		projectInfo: {
@@ -1176,55 +1308,43 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'BGMEA-Bangladesh Garment Manufacturers and Exporters Association',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
+					details: 'https://play.google.com/store/apps/details?id=com.systechdigital.bgmea&hl=en&gl=US',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'Bootstrap 4',
-					'Laravel 8',
-					'JavaScript',
-					'Ajax',
-					'Mysql',
-					'Figma',
+					'Passport API',
+					'Oauth',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Passport API for IOS and Android application',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Notification API',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• CMS Management API',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Reports API',
 				},
 				{
 					id: 5,
-					details: '• ',
-				},
-				{
-					id: 6,
-					details: '• ',
-				},
-				{
-					id: 7,
-					details: '• ',
+					details: '• User Logs API',
 				},
 			]
 		}
@@ -1233,23 +1353,23 @@ const projects = [
 		id: 17,
 		title: 'ERP Solution',
 		category: 'Web Application',
-		date: "May 21, 2022",
+		date: "January 01, 2022",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/erp_1.jpg'),
-				title: "Homepage",
+				title: "ERP Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/erp_2.jpg'),
-				title: "Homepage",
+				title: "ERP 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/erp_3.jpg'),
-				title: "Homepage",
+				title: "ERP 3",
 			}
 		],
 		projectInfo: {
@@ -1257,55 +1377,69 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Annodata Ltd',
+				},
+				{
+					id: 2,
+					title: 'Link',
+					details: 'https://erp.softoapp.com/',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Demo Credentials',
+					details: '',
+				},
+				{
+					id: 4,
+					title: 'User ID',
+					details: 'admin',
+				},
+				{
+					id: 5,
+					title: 'Password',
+					details: 'admin@2022#',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
+					'CodeIgniter 3',
 					'Bootstrap 4',
-					'Laravel 8',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Inventory Management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Purchase Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Sales Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Accounting Management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Customer Relationship Management',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Manufacturing Management',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Logistics Management',
 				},
 			]
 		}
@@ -1314,23 +1448,23 @@ const projects = [
 		id: 18,
 		title: 'Bus Ticket Reservation System',
 		category: 'E-commerce Solutions',
-		date: "May 21, 2022",
+		date: "January 01, 2018",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/bus_1.jpg'),
-				title: "Homepage",
+				title: "BTRS Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/bus_2.jpg'),
-				title: "Homepage",
+				title: "BTRS 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/bus_3.jpg'),
-				title: "Homepage",
+				title: "BTRS 3",
 			}
 		],
 		projectInfo: {
@@ -1338,55 +1472,54 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'University',
+					details: 'IUBAT-International University of Business Agriculture & Technology',
 				},
 				{
 					id: 3,
 					title: 'Demo Link',
-					details: 'https://company.com',
+					details: 'https://bus.publicsoftbd.com',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
-					'Bootstrap 4',
-					'Laravel 8',
+					'Bootstrap 3',
+					'PHP (OOP)',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• User Management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• City Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Route Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Buses Management',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Ticket Management',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Cart Management',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Seat Management',
 				},
 			]
 		}
@@ -1395,23 +1528,23 @@ const projects = [
 		id: 19,
 		title: 'Quiz System',
 		category: 'Educational',
-		date: "May 21, 2022",
+		date: "January 21, 2021",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/quiz_1.jpg'),
-				title: "Homepage",
+				title: "Quiz Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/quiz_2.jpg'),
-				title: "Homepage",
+				title: "Quiz 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/quiz_3.jpg'),
-				title: "Homepage",
+				title: "Quiz 3",
 			}
 		],
 		projectInfo: {
@@ -1419,13 +1552,13 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'Computer Village',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Link',
+					details: 'https://www.computervillage.com.bd/customer/quizzes',
 				}
 			],
 			technologies: {
@@ -1443,32 +1576,24 @@ const projects = [
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Question Bank Management',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Question Set Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Random Quiz Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Leader Board',
 				},
 				{
 					id: 5,
-					details: '• ',
-				},
-				{
-					id: 6,
-					details: '• ',
-				},
-				{
-					id: 7,
-					details: '• ',
-				},
+					details: '• Reports',
+				}
 			]
 		}
 	},
@@ -1476,23 +1601,23 @@ const projects = [
 		id: 20,
 		title: 'COVID-19 MONITORING SYSTEM',
 		category: 'Web Application',
-		date: "May 21, 2022",
+		date: "April 15, 2020",
 		featured: 0,
 		projectImages: [
 			{
 				id: 1,
 				img: require('@/assets/images/c19_1.jpg'),
-				title: "Homepage",
+				title: "Covid-19 Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/c19_2.jpg'),
-				title: "Homepage",
+				title: "Covid-19 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/c19_3.jpg'),
-				title: "Homepage",
+				title: "Covid-19 3",
 			}
 		],
 		projectInfo: {
@@ -1500,55 +1625,41 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'BGMEA',
 				},
-				{
-					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
-				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 7',
 					'JavaScript',
 					'Ajax',
-					'Mysql',
-					'Figma',
+					'Mysql'
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: 'This project was developed for tracking covid 19 effect in garments area. It was funded by BGMEA. By this project they track all the factories profit and losses.',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Order Cancellation history',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• Employee Salary Status',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Loan Application to BGMEA',
 				},
 				{
 					id: 5,
-					details: '• ',
-				},
-				{
-					id: 6,
-					details: '• ',
-				},
-				{
-					id: 7,
-					details: '• ',
+					details: '• Application Approval Process with backward tracking',
 				},
 			]
 		}
@@ -1563,17 +1674,17 @@ const projects = [
 			{
 				id: 1,
 				img: require('@/assets/images/kameda_1.jpg'),
-				title: "Homepage",
+				title: "KAMEDA Homepage",
 			},
 			{
 				id: 2,
 				img: require('@/assets/images/kameda_2.jpg'),
-				title: "Homepage",
+				title: "KAMEDA 2",
 			},
 			{
 				id: 3,
 				img: require('@/assets/images/kameda_3.jpg'),
-				title: "Homepage",
+				title: "KAMEDA 3",
 			}
 		],
 		projectInfo: {
@@ -1581,55 +1692,55 @@ const projects = [
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
+					title: 'Client',
+					details: 'KAMEDA Group',
 				},
 				{
 					id: 3,
-					title: 'Demo Link',
-					details: 'https://company.com',
+					title: 'Link',
+					details: 'https://kameroku.co.jp',
 				}
 			],
 			technologies: {
 				title: 'Tools & Technologies',
 				techs: [
 					'Bootstrap 4',
-					'Laravel 8',
+					'Laravel 7',
 					'JavaScript',
 					'Ajax',
 					'Mysql',
-					'Figma',
+					'AdobeXD',
 				],
 			},
 			projectDetailsHeading: 'Details & Features',
 			projectDetails: [
 				{
 					id: 1,
-					details: '• ',
+					details: '• Dynamic CMS',
 				},
 				{
 					id: 2,
-					details: '• ',
+					details: '• Blog Management',
 				},
 				{
 					id: 3,
-					details: '• ',
+					details: '• News Management',
 				},
 				{
 					id: 4,
-					details: '• ',
+					details: '• Payment Gateway',
 				},
 				{
 					id: 5,
-					details: '• ',
+					details: '• Localization',
 				},
 				{
 					id: 6,
-					details: '• ',
+					details: '• Cart Management',
 				},
 				{
 					id: 7,
-					details: '• ',
+					details: '• Notification',
 				},
 			]
 		}

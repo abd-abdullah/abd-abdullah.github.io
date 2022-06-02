@@ -53,10 +53,10 @@ export default {
 					{{ projectInfo.clientHeading }}
 				</p>
 				<ul class="leading-loose">
-					<li v-for="info in projectInfo.companyInfos" :key="info" :class="['font-general-regular', info.title == 'Demo Link' ? 'text-indigo-600 font-bold dark:text-yellow-400' : 'text-ternary-dark dark:text-ternary-light']">
+					<li v-for="info in projectInfo.companyInfos" :key="info" :class="['font-general-regular', info.title == 'Demo Link' || info.title == 'Link' ? 'text-indigo-600 font-bold dark:text-yellow-400' : 'text-ternary-dark dark:text-ternary-light']">
 						<span>{{ info.title }}: </span>
-						<a :href="info.title == 'Demo Link' ? info.details : '#'" :target="info.title == 'Demo Link' ? '_blank' : false" :class="[
-								info.title == 'Demo Link' || info.title == 'Phone' ? 'hover:underline cursor-pointer' : ''
+						<a :href="info.title == 'Demo Link' || info.title == 'Link' ? info.details : '#'" :target="info.title == 'Demo Link' || info.title == 'Link' ? '_blank' : false" :class="[
+								info.title == 'Demo Link' || info.title == 'Link' || info.title == 'Phone' ? 'hover:underline cursor-pointer' : ''
 							]" aria-label="Project Demo Link and Phone">{{ info.details }}</a>
 					</li>
 				</ul>

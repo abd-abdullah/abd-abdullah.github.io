@@ -5,13 +5,11 @@ export default {
 			bios: [
 				{
 					id: 1,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					bio: "I am a full-stack web developer, and have been working in one of the BIG 2 companies for four years",
 				},
 				{
 					id: 2,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					bio: "I'v four years of experienced in PHP Core, OOP, Codeigniter Framework, Laravel Framework. I have deep knowledge of different web technologies like Vue.js, jQuery, Ajax, HTML, CSS, Bootstrap, Tailwind css and MySql. During the last 4 years, I've already contributed to over a twenty projects and assisted with managing more than seven project for the clients. All the projects with description are listed in this portfolio site.",
 				},
 			],
 		};
@@ -23,20 +21,18 @@ export default {
 	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
-			<img
-				src="@/assets/images/profile.jpg"
-				class="rounded-xl w-96"
-				alt=""
-			/>
+			<img src="@/assets/images/profile.jpg" class="rounded-xl w-96" alt="" />
 		</div>
 
 		<!-- About details -->
 		<div class="w-full sm:w-3/4 text-left">
-			<p
-				v-for="bio in bios"
-				:key="bio.id"
-				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
-			>
+			<p class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg">
+				<span class="block font-bold text-2xl"><strong>Md. Abdullah</strong></span>
+				<span class="block"><strong>Address:</strong> House-01, Road-08, Sector-09, Uttara, Dhaka 1230</span>
+				<span class="block"><strong>Contact No:</strong> +8801738-868597</span>
+				<span class="block"><strong>Email:</strong> abdullah001rti@gmail.com</span>
+			</p>
+			<p v-for="bio in bios" :key="bio.id" class="text-justify font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg">
 				{{ bio.bio }}
 			</p>
 		</div>
