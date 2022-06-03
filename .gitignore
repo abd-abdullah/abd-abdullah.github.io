@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-
+error_log
 
 # local env files
 .env.local
