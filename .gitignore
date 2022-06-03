@@ -1,0 +1,31 @@
+.DS_Store
+node_modules
+/dist
+error_log
+babel.config.js
+package.json
+package-lock.json
+tailwind.config.js
+postcss.config.js
+/src
+/public
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
