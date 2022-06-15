@@ -20,6 +20,7 @@
     "postcss-import": "^14.1.0",
     "postcss-preset-env": "^7.6.0",
     "vue": "^3.2.35",
+    "vue-analytics": "^5.22.1",
     "vue-backtotop": "^1.6.1",
     "vue-loading-overlay": "5.0",
     "vue-meta": "^3.0.0-alpha.10",
