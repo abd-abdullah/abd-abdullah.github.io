@@ -79,7 +79,7 @@ export default {
 										<path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 									</svg>
 								</div>
-								Uttara, Dhaka, Bangladesh
+								Nirala, Khulna, Bangladesh
 							</div>
 							<div class="flex gap-2 justify-center">
 								<a href="https://github.com/abd-abdullah" target="_blank" title="Github" class="my-5 text-blue-500 text-gray-600 flex">
@@ -218,7 +218,29 @@ export default {
 							<ul class="relative border-l border-gray-200">
 								<li class="mb-6 ml-4">
 									<div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-1.5 border border-white"></div>
-									<time class="mb-1 text-sm font-normal leading-none text-indigo-600 block">April 2020 - Present</time>
+									<time class="mb-1 text-sm font-normal leading-none text-indigo-600 block">October 2022 - Present</time>
+									<h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
+										Software Engineer
+									</h2>
+
+									<div class="mt-0">
+										<div>
+											<div class="font-semibold text-base">
+												<a href="https://systechdigital.com" class="text-blue-800" target="_blank"> Zainik Lab, </a> <span class="italic text-sm dark:text-gray-400">House-18, Road-01, Nirala, Khulna</span>
+											</div>
+										</div>
+										<div class="ml-4 text-gray-700 dark:text-gray-300 mt-3">
+											<ul class="list-disc">
+												<li>Developing Learning Management System for CodeCanyon</li>
+												<li>Project resource planning and estimating timeline</li>
+												<li>Server maintaining VPS Server & cPanel installation</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="mb-6 ml-4">
+									<div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-1.5 border border-white"></div>
+									<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 block">April 2020 - September 2022</time>
 									<h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
 										Software Engineer
 									</h2>

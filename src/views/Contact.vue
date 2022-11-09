@@ -13,7 +13,7 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: "House 01, Road 08, Sector 09, Dhaka-1230, Bangladesh",
+					name: "House 18, Road 01, Nirala, Khulna, Bangladesh",
 					icon: "map-pin",
 				},
 				{
