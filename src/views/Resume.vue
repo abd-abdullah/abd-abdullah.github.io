@@ -5,19 +5,19 @@ export default {
 		return {
 			skills: [
 				"PHP",
-				"JavaScript",
-				"Laravel",
+        "Laravel",
+        "Tailwind",
+        "Livewire",
+        "JavaScript",
 				"jQuery",
 				"Ajax",
 				"Vue.js",
 				"MySql",
 				"Bootstrap",
-				"Tailwind",
 				"HTML5",
 				"CSS",
 				"SCSS",
 				"Git",
-				"cPanel",
 			],
 		};
 	},
@@ -204,7 +204,15 @@ export default {
 					<div class="mb-6">
 						<h1 class="mb-4 text-2xl text-gray-700 dark:text-ternary-light font-bold">About me</h1>
 						<p class="text-gray-700 dark:text-gray-300 text-justify">
-							I am a full-stack web developer, and have been working in one of the BIG 2 companies for four years. I'v four years of experienced in PHP Core, OOP, Codeigniter Framework, Laravel Framework. I have deep knowledge of different web technologies like Vue.js, jQuery, Ajax, HTML, CSS, Bootstrap, Tailwind css and MySql. During the last 4 years, I've already contributed to over a twenty projects and assisted with managing more than seven project for the clients. All the projects with description are listed in this portfolio site.
+              I am Md. Abdullah, a results-driven Senior Software Engineer with over six years of experience in developing and optimizing web applications. I am skilled in PHP, JavaScript, and various frameworks, with a strong focus on performance enhancement and client satisfaction. I have a proven track record of leading projects, mentoring junior developers, and managing VPS servers for seamless deployments. I am committed to delivering high-quality software solutions and continuously improving my technical skills.
+              <br>
+              <br>
+
+              Currently, I am working at Zainik Lab, where I have improved the performance of a Learning Management System, created an Alumni Association Application for Codecanyon, and worked on AI projects. My previous experience includes developing secure APIs for the BIDA OSS microservice and enhancing membership and e-commerce platforms at Systech Digital Limited. I began my career at Softnio, where I developed ICO applications and other software solutions for Codecanyon.
+              <br>
+              <br>
+
+              I hold a Bachelor's degree in Computer Science and Engineering from IUBAT, with a CGPA of 3.89. I am passionate about leveraging my skills to create impactful software solutions and am always eager to learn and embrace new challenges.
 						</p>
 					</div>
 					<div class="mb-10">
@@ -214,103 +222,113 @@ export default {
 							</svg>
 							<h1 class="mb-4 inline text-2xl text-gray-700 dark:text-ternary-light font-bold"> Experience</h1>
 						</div>
-						<div class="ml-3">
-							<ul class="relative border-l border-gray-200">
-								<li class="mb-6 ml-4">
-									<div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-1.5 border border-white"></div>
-									<time class="mb-1 text-sm font-normal leading-none text-indigo-600 block">October 2022 - Present</time>
-									<h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
-										Software Engineer
-									</h2>
+            <div class="ml-3">
+              <ul class="relative border-l border-gray-200">
+                <li class="mb-6 ml-4">
+                  <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-1.5 border border-white"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-indigo-600 block">August 2022 - Present</time>
+                  <h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
+                    Senior Software Engineer
+                  </h2>
 
-									<div class="mt-0">
-										<div>
-											<div class="font-semibold text-base">
-												<a href="https://systechdigital.com" class="text-blue-800" target="_blank"> Zainik Lab, </a> <span class="italic text-sm dark:text-gray-400">House-18, Road-01, Nirala, Khulna</span>
-											</div>
-										</div>
-										<div class="ml-4 text-gray-700 dark:text-gray-300 mt-3">
-											<ul class="list-disc">
-												<li>Developing Learning Management System for CodeCanyon</li>
-												<li>Project resource planning and estimating timeline</li>
-												<li>Server maintaining VPS Server & cPanel installation</li>
-											</ul>
-										</div>
-									</div>
-								</li>
-								<li class="mb-6 ml-4">
-									<div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-1.5 border border-white"></div>
-									<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 block">April 2020 - September 2022</time>
-									<h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
-										Software Engineer
-									</h2>
+                  <div class="mt-0">
+                    <div>
+                      <div class="font-semibold text-base">
+                        <a href="https://zainiklab.com" class="text-blue-800" target="_blank"> Zainik Lab, </a> <span class="italic text-sm dark:text-gray-400">House-236, Road-12, Nirala, Khulna</span>
+                      </div>
+                    </div>
+                    <div class="ml-4 text-gray-700 dark:text-gray-300 mt-3">
+                      <ul class="list-disc">
+                        <li>Improved the performance of a Learning Management System by optimizing code and queries</li>
+                        <li>Reviewed software requirements to ensure accurate development</li>
+                        <li>Created an Alumni Association Application for Codecanyon</li>
+                        <li>Managed VPS servers to ensure smooth and continuous deployment</li>
+                        <li>Worked on an AI project</li>
+                        <li>Ensured high code quality by using SOLID design principles</li>
+                        <li>Meeting with clients to gather custom work requirements</li>
+                        <li>Assigned tasks to junior developers and reviewed their code</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="mb-6 ml-4">
+                  <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-1.5 border border-white"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 block">April 2019 - July 2022</time>
+                  <h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
+                    Software Engineer
+                  </h2>
 
-									<div class="mt-0">
-										<div>
-											<div class="font-semibold text-base">
-												<a href="https://systechdigital.com" class="text-blue-800" target="_blank"> Systech Digital Limited, </a> <span class="italic text-sm dark:text-gray-400">House-01, Road-16, Sector-07, Uttara, Dhaka</span>
-											</div>
-										</div>
-										<div class="ml-4 text-gray-700 dark:text-gray-300 mt-3">
-											<ul class="list-disc">
-												<li>Used Passport and sanctum to develop API for BIDA OSS microservice.</li>
-												<li>Develop and deploy CodeCanyon application</li>
-												<li>Speed up 60% to analyze the problem of the Membership application.</li>
-												<li>Enhanced E-commerce performance by optimizing the query</li>
-												<li>Integrate Bulk SMS in several project</li>
-												<li>Project resource planning and estimating timeline</li>
-												<li>Server maintains VPS Server, HostGator & cPanel installation</li>
-											</ul>
-										</div>
-									</div>
-								</li>
-								<li class="mb-6 ml-4">
-									<div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white"></div>
-									<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 block">April 2019 - April-2020</time>
-									<h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
-										Junior Software Engineer
-									</h2>
-									<div class="mt-0">
-										<div>
-											<div class="font-semibold text-base">
-												<a href="https://systechdigital.com" class="text-blue-800" target="_blank"> Systech Digital Limited, </a> <span class="italic text-sm dark:text-gray-400">House-01, Road-16, Sector-07, Uttara, Dhaka</span>
-											</div>
-										</div>
-										<div class="ml-4 text-gray-700 dark:text-gray-400 mt-3">
-											<ul class="list-disc">
-												<li>Analysis software requirement specifications</li>
-												<li>Developed Membership application using CodeIgniter 3 and Laravel 7</li>
-												<li>Design & Develop stakeholder applications</li>
-												<li>Perform tasks assigned by the project manager</li>
-												<li>Create technical documentation for reference and reporting</li>
-											</ul>
-										</div>
-									</div>
-								</li>
-								<li class="mb-6 ml-4">
-									<div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white"></div>
-									<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 block">Dec 2018 - April 2019</time>
-									<h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
-										Full Stack Laravel Developer
-									</h2>
-									<div class="mt-0">
-										<div>
-											<div class="font-semibold text-base">
-												<a href="https://softnio.com" class="text-blue-800" target="_blank"> Softnio, </a> <span class="italic text-sm dark:text-gray-400">House-165, Lane No 3, Mohakhali DOHS, Dhaka</span>
-											</div>
-										</div>
-										<div class="ml-4 text-gray-700 dark:text-gray-400 mt-3">
-											<ul class="list-disc">
-												<li>Analysis software requirement specifications</li>
-												<li>Develop ICO (Token Sale) application using Laravel 5.7</li>
-												<li>Developed CodeCanyon application</li>
-											</ul>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
+                  <div class="mt-0">
+                    <div>
+                      <div class="font-semibold text-base">
+                        <a href="https://systechdigital.com" class="text-blue-800" target="_blank"> Systech Digital Limited, </a> <span class="italic text-sm dark:text-gray-400">House-01, Road-16, Sector-07, Uttara, Dhaka</span>
+                      </div>
+                    </div>
+                    <div class="ml-4 text-gray-700 dark:text-gray-300 mt-3">
+                      <ul class="list-disc">
+                        <li>Developed secure APIs for the BIDA OSS micro service using Passport and Sanctum</li>
+                        <li>Improved the Membership application performance by 60%</li>
+                        <li>Enhanced E-commerce platform performance by optimizing queries</li>
+                        <li>Attended meetings with clients and team members</li>
+                        <li>Planned project resources and timelines</li>
+                        <li>Managed VPS servers, and installation application</li>
+                        <li>Developed Membership application using CodeIgniter 3 and Laravel 7</li>
+                        <li>Design & Develop stakeholder applications</li>
+                        <li>Perform tasks assigned by the project manager</li>
+                        <li>Create technical documentation for reference and reporting</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="mb-6 ml-4">
+                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 block">April 2019 - April 2020</time>
+                  <h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
+                    Junior Software Engineer
+                  </h2>
+                  <div class="mt-0">
+                    <div>
+                      <div class="font-semibold text-base">
+                        <a href="https://systechdigital.com" class="text-blue-800" target="_blank"> Systech Digital Limited, </a> <span class="italic text-sm dark:text-gray-400">House-01, Road-16, Sector-07, Uttara, Dhaka</span>
+                      </div>
+                    </div>
+                    <div class="ml-4 text-gray-700 dark:text-gray-400 mt-3">
+                      <ul class="list-disc">
+                        <li>Analysis software requirement specifications</li>
+                        <li>Developed Membership application using CodeIgniter 3 and Laravel 7</li>
+                        <li>Design & Develop stakeholder applications</li>
+                        <li>Perform tasks assigned by the project manager</li>
+                        <li>Create technical documentation for reference and reporting</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="mb-6 ml-4">
+                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 block">December 2018 - April 2019</time>
+                  <h2 class="font-bold inline-flex mr-2 text-xl text-gray-800 dark:text-gray-300">
+                    Full Stack Laravel Developer
+                  </h2>
+                  <div class="mt-0">
+                    <div>
+                      <div class="font-semibold text-base">
+                        <a href="https://softnio.com" class="text-blue-800" target="_blank"> Softnio, </a> <span class="italic text-sm dark:text-gray-400">House-165, Lane No 3, Mohakhali DOHS, Dhaka</span>
+                      </div>
+                    </div>
+                    <div class="ml-4 text-gray-700 dark:text-gray-400 mt-3">
+                      <ul class="list-disc">
+                        <li>Reviewed software requirements to understand project needs</li>
+                        <li>Developed an ICO (Token Sale) application with Laravel</li>
+                        <li>Worked on client requirements and delivered features</li>
+                        <li>Created applications for Codecanyon</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
 
 					<div class="">
 						<div>

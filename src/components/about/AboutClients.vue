@@ -4,7 +4,7 @@ export default {
 		return {
 			skillsHeading: 'My Technical Skills',
 			skills: [
-			'PHP', 'JavaScript', 'Laravel', 'jQuery', 'Ajax', 'Vue.js', 'MySql', 'Bootstrap', 'Tailwind', 'HTML5', 'CSS', 'SCSS', 'Git', 'cPanel'
+			'PHP',  'Laravel', 'Livewire', 'Tailwind', 'JavaScript', 'jQuery', 'Ajax', 'Vue.js', 'MySql', 'Bootstrap', 'HTML5', 'CSS', 'SCSS', 'Git', 'cPanel'
 			],
 		};
 	},

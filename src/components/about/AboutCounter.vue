@@ -27,7 +27,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="3.5"
+					:endAmount="6"
 					:duration="0.5"
 					:autoinit="true"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
@@ -45,7 +45,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="15"
+					:endAmount="30"
 					:duration="1"
 					suffix=""
 					:autoinit="true"

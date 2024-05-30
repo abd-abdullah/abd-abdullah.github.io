@@ -4,6 +4,301 @@
 const projects = [
 	{
 		id: 1,
+		title: 'Getflowtools - Booking & Appointment webflow app.',
+		category: 'Webflow App',
+		date: "February 01, 2024",
+		featured: 1,
+		projectImages: [
+			{
+				id: 1,
+				img: require('@/assets/images/webflow_app_1.png'),
+				title: "Booking Form",
+			},
+			{
+				id: 2,
+				img: require('@/assets/images/webflow_app_2.png'),
+				title: "Booking Appointment",
+			},
+			{
+				id: 3,
+				img: require('@/assets/images/webflow_app_3.png'),
+				title: "Appointment calender",
+			}
+		],
+		projectInfo: {
+			clientHeading: 'About Client',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Company',
+					details: 'Zainiklab',
+				},
+				{
+					id: 2,
+					title: 'Link',
+					details: 'https://webflow.com/apps/detail/getflowtools',
+				}
+			],
+			technologies: {
+				title: 'Tools & Technologies',
+				techs: [
+					'Bootstrap 5',
+					'Laravel 9',
+					'JavaScript',
+					'Ajax',
+					'Mysql',
+					'Figma',
+				],
+			},
+			projectDetailsHeading: 'Details & Features',
+			projectDetails: [
+				{
+					id: 1,
+					details: '• Unlimited services and service providers management',
+				},
+				{
+					id: 2,
+					details: '• Supports both online and offline meetings',
+				},
+				{
+					id: 3,
+					details: '• Multiple payment gateways (PayPal, Stripe, Cash, Mollie, etc.)',
+				},
+				{
+					id: 4,
+					details: '• Automated reminders and multiple calendar integration',
+				},
+				{
+					id: 5,
+					details: '• Detailed reports and insights',
+				},
+				{
+					id: 6,
+					details: '• Service provider panel with email notifications',
+				},
+				{
+					id: 7,
+					details: '• Auto-generated invoices',
+				},
+				{
+					id: 8,
+					details: '• Customizable booking forms with custom CSS',
+				},
+				{
+					id: 9,
+					details: '• Meeting duration, timezone, and availability settings',
+				},
+				{
+					id: 10,
+					details: '• Currency settings for global operations',
+				}
+			]
+		}
+	},
+	{
+		id: 2,
+		title: 'Zaialumni - Alumni Association Management System',
+		category: 'CodeCanyon Application',
+		date: "September 29, 22023",
+		featured: 1,
+		projectImages: [
+			{
+				id: 1,
+				img: require('@/assets/images/zaialumni_1.jpg'),
+				title: "Community timeline",
+			},
+			{
+				id: 2,
+				img: require('@/assets/images/zaialumni_2.jpg'),
+				title: "Alumni list",
+			},
+			{
+				id: 3,
+				img: require('@/assets/images/zaialumni_3.jpg'),
+				title: "Messaging",
+			}
+		],
+		projectInfo: {
+			clientHeading: 'About Client',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Company',
+					details: 'Zainiklab',
+				},
+				{
+					id: 2,
+					title: 'Link',
+					details: 'https://codecanyon.net/item/zaialumni-alumni-association-laravel-script/48352405',
+				}
+			],
+			technologies: {
+				title: 'Tools & Technologies',
+				techs: [
+					'Bootstrap 5',
+					'Laravel 9',
+					'JavaScript',
+					'Ajax',
+					'Mysql',
+					'Figma',
+				],
+			},
+			projectDetailsHeading: 'Details & Features',
+			projectDetails: [
+				{
+					id: 1,
+					details: '• User-friendly system for alumni connectivity and activity management',
+				},
+				{
+					id: 2,
+					details: '• Secure system with Two-Factor Authentication for extra safety',
+				},
+				{
+					id: 3,
+					details: '• Alumni sign-up and approval through document submission',
+				},
+				{
+					id: 4,
+					details: '• Community hub for sharing updates and communication among alumni',
+				},
+				{
+					id: 5,
+					details: '• Simple event planning with automatic ticketing using QR codes and barcodes',
+				},
+				{
+					id: 6,
+					details: '• Multilingual and multi-currency support',
+				},
+				{
+					id: 7,
+					details: '• Email notifications to keep everyone informed',
+				},
+				{
+					id: 8,
+					details: '• Powerful admin dashboard for easy control',
+				},
+				{
+					id: 9,
+					details: '• Flexible membership plans',
+				},
+				{
+					id: 10,
+					details: '• Job listings posting capability',
+				},
+				{
+					id: 11,
+					details: '• One-to-one private messaging feature',
+				},
+				{
+					id: 12,
+					details: '• Transaction tracking and multiple payment options',
+				}
+			]
+		}
+	},
+	{
+		id: 3,
+		title: 'LMSZAI - Learning Management System',
+		category: 'CodeCanyon Application',
+		date: "October 01, 2022",
+		featured: 1,
+		projectImages: [
+			{
+				id: 1,
+				img: require('@/assets/images/lmszai_1.png'),
+				title: "Instructor Dashboard",
+			},
+			{
+				id: 2,
+				img: require('@/assets/images/lmszai_2.png'),
+				title: "Homepage 1",
+			},
+			{
+				id: 3,
+				img: require('@/assets/images/lmszai_3.png'),
+				title: "Homepage 2",
+			}
+		],
+		projectInfo: {
+			clientHeading: 'About Client',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Company',
+					details: 'Zainiklab',
+				},
+				{
+					id: 3,
+					title: 'Link',
+					details: 'https://codecanyon.net/item/lmszai-learning-management-system/38383087',
+				}
+			],
+			technologies: {
+				title: 'Tools & Technologies',
+				techs: [
+					'Bootstrap 5',
+					'Laravel 9',
+					'JavaScript',
+					'Ajax',
+					'Mysql',
+					'Figma',
+				],
+			},
+			projectDetailsHeading: 'Details & Features',
+			projectDetails: [
+				{
+					id: 1,
+					details: '• Web-based responsive application with online learning management system',
+				},
+				{
+					id: 2,
+					details: '• Supports multiple content types including video courses and live classes (Zoom)',
+				},
+				{
+					id: 3,
+					details: '• Admin, instructor, and student panels for comprehensive management',
+				},
+				{
+					id: 4,
+					details: '• Instructors can create, update, and sell paid/free courses',
+				},
+				{
+					id: 5,
+					details: '• Students can track progress, participate in quizzes, assignments, and discussions',
+				},
+				{
+					id: 6,
+					details: '• Integration with YouTube, Vimeo, and Amazon AWS S3 for video content',
+				},
+				{
+					id: 7,
+					details: '• Multiple payment gateways (PayPal, Stripe, Razorpay, SSLCOMMERZ)',
+				},
+				{
+					id: 8,
+					details: '• Social and email login options',
+				},
+				{
+					id: 9,
+					details: '• Built-in accounting system with transaction tracking, sales analysis, and more',
+				},
+				{
+					id: 10,
+					details: '• Multi-language support and customizable content',
+				},
+				{
+					id: 11,
+					details: '• Real-time notifications and offline access for mobile users',
+				},
+				{
+					id: 12,
+					details: '• Support for shared hosting, reducing costs for users',
+				}
+			]
+		}
+	},
+	{
+		id: 4,
 		title: 'B2B Web & Membership Application',
 		category: 'Membership Application',
 		date: "January 01, 2021",
@@ -96,11 +391,11 @@ const projects = [
 		}
 	},
 	{
-		id: 2,
+		id: 5,
 		title: 'Multi Vendor E-commerce',
 		category: 'E-commerce Solutions',
 		date: "March 15, 2020",
-		featured: 1,
+		featured: 0,
 		projectImages: [
 			{
 				id: 1,
@@ -184,11 +479,11 @@ const projects = [
 		}
 	},
 	{
-		id: 3,
+		id: 6,
 		title: 'Car and SolutionsBike Parking',
 		category: 'CodeCanyon Application',
 		date: "Feb 17, 2022",
-		featured: 1,
+		featured: 0,
 		projectImages: [
 			{
 				id: 1,
@@ -265,7 +560,7 @@ const projects = [
 		}
 	},
 	{
-		id: 4,
+		id: 7,
 		title: 'ICO / STO Token Sale Management',
 		category: 'CodeCanyon Application',
 		date: "April 12, 2019",
@@ -349,11 +644,11 @@ const projects = [
 		}
 	},
 	{
-		id: 5,
+		id: 8,
 		title: 'School Management Application',
 		category: 'Educational',
 		date: "January 21, 2020",
-		featured: 1,
+		featured: 0,
 		projectImages: [
 			{
 				id: 1,
@@ -443,7 +738,7 @@ const projects = [
 		}
 	},
 	{
-		id: 6,
+		id: 9,
 		title: 'BGMEA B2B Web Portal',
 		category: 'Web Application',
 		featured: 1,
@@ -524,7 +819,7 @@ const projects = [
 		}
 	},
 	{
-		id: 7,
+		id: 10,
 		title: 'DCCI Membership Application',
 		category: 'Membership Application',
 		date: "May 01, 2020",
@@ -631,7 +926,7 @@ const projects = [
 		}
 	},
 	{
-		id: 8,
+		id: 11,
 		title: 'Warranty & Customer Support Management',
 		category: 'Web Application',
 		date: "April 21, 2021",
@@ -725,7 +1020,7 @@ const projects = [
 		}
 	},
 	{
-		id: 9,
+		id: 12,
 		title: 'FICCI B2B Portal & Membership',
 		category: 'Membership Application',
 		date: "May 21, 2022",
@@ -814,7 +1109,7 @@ const projects = [
 		}
 	},
 	{
-		id: 10,
+		id: 13,
 		title: 'DCCI Country of Origin Application',
 		category: 'Membership Application',
 		date: "October 30, 2021",
@@ -907,7 +1202,7 @@ const projects = [
 		}
 	},
 	{
-		id: 11,
+		id: 14,
 		title: 'Client Maturity Management System',
 		category: 'Web Application',
 		date: "April 30, 2021",
@@ -996,7 +1291,7 @@ const projects = [
 		}
 	},
 	{
-		id: 12,
+		id: 15,
 		title: 'Lead Tracking System',
 		category: 'Web Application',
 		date: "December 15, 2019",
@@ -1107,7 +1402,7 @@ const projects = [
 		}
 	},
 	{
-		id: 13,
+		id: 16,
 		title: 'Systech Smart Solution',
 		category: 'E-commerce Solutions',
 		date: "May 21, 2021",
@@ -1196,7 +1491,7 @@ const projects = [
 		}
 	},
 	{
-		id: 14,
+		id: 17,
 		title: 'RAIMS-Recruiting Management System',
 		category: 'Web Application',
 		date: "September 21, 2020",
@@ -1281,7 +1576,7 @@ const projects = [
 		}
 	},
 	{
-		id: 16,
+		id: 18,
 		title: 'BGMEA Mobile Application API',
 		category: 'Membership Application',
 		date: "May 21, 2022",
@@ -1350,7 +1645,7 @@ const projects = [
 		}
 	},
 	{
-		id: 17,
+		id: 19,
 		title: 'ERP Solution',
 		category: 'Web Application',
 		date: "January 01, 2022",
@@ -1445,7 +1740,7 @@ const projects = [
 		}
 	},
 	{
-		id: 18,
+		id: 20,
 		title: 'Bus Ticket Reservation System',
 		category: 'E-commerce Solutions',
 		date: "January 01, 2018",
@@ -1525,7 +1820,7 @@ const projects = [
 		}
 	},
 	{
-		id: 19,
+		id: 21,
 		title: 'Quiz System',
 		category: 'Educational',
 		date: "January 21, 2021",
@@ -1598,7 +1893,7 @@ const projects = [
 		}
 	},
 	{
-		id: 20,
+		id: 22,
 		title: 'COVID-19 MONITORING SYSTEM',
 		category: 'Web Application',
 		date: "April 15, 2020",
@@ -1665,7 +1960,7 @@ const projects = [
 		}
 	},
 	{
-		id: 21,
+		id: 23,
 		title: 'E-Commerce for KAMEDA',
 		category: 'E-commerce Solutions',
 		date: "May 21, 2022",

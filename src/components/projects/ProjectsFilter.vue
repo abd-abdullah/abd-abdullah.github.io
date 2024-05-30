@@ -10,6 +10,7 @@ export default {
 			type: Array,
 			default: () => [
 				'Membership Application',
+        'Webflow App',
 				'E-commerce Solutions',
 				'Educational',
 				'Web Application',
