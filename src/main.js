@@ -8,7 +8,6 @@ import "vue-toastification/dist/index.css";
 import VueLoading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
 import { createMetaManager, defaultConfig, plugin as metaPlugin } from 'vue-meta'
-import VueAnalytics from 'vue-analytics';
 
 const feather = require('feather-icons');
 feather.replace();
@@ -24,13 +23,9 @@ createApp(App)
 	.use(VueLoading)
 	.use(metaManager)
 	.use(metaPlugin)
-	.use(VueAnalytics, {
-		id: '319570402'
-	})
 	.mount('#app');
 
 const appTheme = localStorage.getItem('theme');
-
 
 // Check what is the active theme and change theme when user clicks on the theme button in header.
 if (
