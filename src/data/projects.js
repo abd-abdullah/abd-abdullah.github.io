@@ -4,7 +4,7 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Getflowtools - Booking & Appointment webflow app.',
+		title: 'Getflowtools - Webflow booking, e-commerce & CMS enhancement suite.',
 		category: 'Webflow App',
 		date: "February 01, 2024",
 		featured: 1,
@@ -91,6 +91,18 @@ const projects = [
 				{
 					id: 10,
 					details: '• Currency settings for global operations',
+				},
+				{
+					id: 11,
+					details: 'Schedulink – Appointment booking & slot management.',
+				},
+				{
+					id: 12,
+					details: 'MerchFlow – Webflow e-commerce with product & order management.',
+				},
+				{
+					id: 13,
+					details: 'Webwiz – CMS enhancement app (like Jetboost) for search, filter, sorting & favorites.',
 				}
 			]
 		}
